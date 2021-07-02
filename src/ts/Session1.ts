@@ -1,5 +1,6 @@
 import {Pair, todo} from './Data';
 
+// aka the identity function
 export const e01 = <A> (a: A): A => todo();
 
 export const e02 = <A, B> (a: A, b: B): A => todo();
@@ -20,6 +21,7 @@ export const e07b = <A, B> (p: Pair<A, B>): B => todo();
 
 export const e08 = <A, B> (p: Pair<A, B>): Pair<A, B> => todo();
 
+// sometimes called "flip"
 export const e09 = <A, B> (p: Pair<A, B>): Pair<B, A> => todo();
 
 export const e10a = <A, B, C> (p: Pair<Pair<A, B>, C>): A => todo();
